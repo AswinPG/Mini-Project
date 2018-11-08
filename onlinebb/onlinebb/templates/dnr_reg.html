@@ -1,0 +1,44 @@
+{% load static %}
+<html>
+	<head>
+		<title>Register</title>
+			<link rel="stylesheet" href="{% static 'css/style.css'  %}">
+	</head>
+	<body>
+		<div id="head">
+			<h1 id="hdid">Online Blood Blank</h1>
+			<h4 id="sbid"><i>Let&apos;s save lives</i></h4>
+		</div>
+		<div id="reg">
+
+			<h4>ENTER YOUR DETAILS</h4>
+			 <form action="" method="post" enctype="multipart/form-data">
+			Name:<br>
+					<input type="text" name="name" ><br><br>
+			Age:<br>
+					<input type="text" name="age"><br><br>
+			Blood Group:<br>
+					<input type="text" name="bldgroup"><br><br>
+			Phone Number:<br>
+					<input type="text" name="phno"><br><br>
+			Location:<br>
+					<input  type="text" name="loc"><br><br>
+			 <fieldset text-align="center" align="center">
+				<legend>Health Details:</legend>
+					<table align="center">
+						<tr><td>Sugar level: <td><input type="text" size="30" align="right"><br><br>
+					    <tr><td>Blood Pressure:<td><input type="text" size="30" align="right" ><br><br>
+						<tr><td>Cholestrol:<td><input type="text" size="10" align="right" ><br>
+					</table>
+						<br><i>Select if your medical history includes anything else</i><br>
+						<select>
+								<option value="Surgery">Surgery</option>
+								<option value="Cardiac Disease">Cardiac Disease</option>
+								<option value="Tumor">Tumor</option>
+						</select>
+			</fieldset>
+			<br><br>
+						<button type="submit" value="Donor" id="sbtn">Become a Donor</button>
+			</form>
+	</body>
+</html>

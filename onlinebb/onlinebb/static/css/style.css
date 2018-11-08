@@ -1,0 +1,53 @@
+body
+{
+	background-color:#FFFFFF;
+	color:#C12283;
+}
+#head{
+	background-color:#E3E2DF;
+	padding: 16px;
+	border-radius: 25px;
+	background-image:url("blood.jpg");
+
+}
+#hdid{
+	color: #F70D1A;
+	font-size: 400%;
+	text-align:center;
+}
+#sbid{
+	color: #F70D1A;
+	text-align:center;
+	font-size: 200%;
+}
+#bdy{
+	text-align:center;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:#C12283
+}
+form{
+	text-align:center;
+}
+fieldset{
+	width:50%;
+	text-align:center;
+	margin:auto;
+}
+h3,h4{
+	text-align:center;
+}
+div{
+	text-align:
+}
+#sbtn,#srbtn{
+	background: #E32428;
+	color: white;
+	border-radius: 15px;
+	border-color: #E32428;
+	height: 50px;
+	font: bold 15px arial, sans-serif;
+}
